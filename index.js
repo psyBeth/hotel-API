@@ -27,15 +27,12 @@ const cors = require("cors");
 app.use(cors());
 
 // queryHandler
-
+app.use(require("./src/middlewares/queryHandler"));
 
 // Logger
 
 
 // Authentication
-
-
-// find search sort pagination
 
 
 //? Routes
