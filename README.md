@@ -45,4 +45,3 @@
             reservation.js
             user.js
 ```
-![excalidraw](./z_drawings.svg)
