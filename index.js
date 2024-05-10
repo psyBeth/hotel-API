@@ -52,7 +52,7 @@ app.all("/", (req, res) => {
 app.use(require("./src/middlewares/errorHandler"));
 
 //? run server 
-app.listen(PORT, () => console.log("http://127.0.0.1:" + PORT));
+app.listen(PORT, () => console.log("HTTPS://"+ HOST+ ":" + PORT));
 
 //? syncronization
 // require('./src/helpers/sync')()   //!clearing database.
