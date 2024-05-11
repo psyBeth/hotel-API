@@ -66,6 +66,37 @@ const UserSchema = new mongoose.Schema({
     isStaff: {
         type: Boolean,
         default: false
+    },
+
+    firstName: String,
+
+    lastName: String,
+
+    maidenName: String,
+
+    age: Number,
+
+    gender: String,
+
+    birthDate: Date,
+
+    phoneNumber: String,
+
+    address: {
+      address: String,
+      city: String,
+      state: String,
+      postalCode: String,
+    },
+
+    profilePhoto: String, // URL TO IMAGE, MULTER UPLOAD
+
+    bank: {                 
+      cardExpire: String,
+      cardNumber: String,
+      cardType: String,
+      currency: String,
+      iban: String,
     }
 
 }, {
