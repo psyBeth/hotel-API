@@ -2,8 +2,18 @@
 
 const router = require('express').Router()
 
-// URL: /
+//? URL: /
 
+// auth:
+
+// user:
+
+// token:
+router.use('/tokens', require("./token"));
+
+// reservation:
+
+// room:
 
 
 module.exports = router;
