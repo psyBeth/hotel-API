@@ -18,7 +18,7 @@ const validateEmail = function (email) {
 
 //? USER SCHEMA
 
-const userSchema = new mongoose.Schema({
+const UserSchema = new mongoose.Schema({
     // _id
 
     username: {
@@ -73,4 +73,4 @@ const userSchema = new mongoose.Schema({
     timestamps: true
 });
 
-module.exports = mongoose.model("User", userSchema);
+module.exports = mongoose.model("User", UserSchema);
