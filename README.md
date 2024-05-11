@@ -2,7 +2,7 @@
 
 ### ERD:
 
-![ERD](./z_hotelERD.png)
+![ERD](./hotelAPI_ERD.png)
 
 ### Folder/File Structure:
 
