@@ -14,6 +14,7 @@ router.use('/users', require("./user"));
 router.use('/tokens', require("./token"));
 
 // reservation:
+router.use('/reservations', require('./reservation'));
 
 // room:
 router.use('/rooms', require('./room'));
