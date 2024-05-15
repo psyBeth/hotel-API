@@ -15,6 +15,6 @@ router.use('/tokens', require("./token"));
 // reservation:
 
 // room:
-
+router.use('/rooms', require('./room'));
 
 module.exports = router;
