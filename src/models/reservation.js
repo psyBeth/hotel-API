@@ -13,7 +13,7 @@ const ReservationSchema = new mongoose.Schema({
 
     roomId: {
         type: mongoose.Schema.Types.ObjectId,
-        ref: "Room",   //! ! ! ! !
+        ref: "Room",
         required: true,
     },
 
